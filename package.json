@@ -1,0 +1,39 @@
+{
+  "name": "airc-openclaw",
+  "version": "0.1.0",
+  "description": "AIRC identity layer for OpenClaw — verified messaging between agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "airc",
+    "openclaw",
+    "moltbook",
+    "agent-identity",
+    "verified-messaging",
+    "ai-agents"
+  ],
+  "author": "Seth Goldstein <seth@airc.chat>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightseth/airc-openclaw.git"
+  },
+  "homepage": "https://airc.chat",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
