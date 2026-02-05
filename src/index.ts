@@ -19,8 +19,8 @@ if (require.main === module) {
 
   console.log(`
 ╔═══════════════════════════════════════════════════════════╗
-║                    airc-openclaw v0.1.1                   ║
-║         Verified identity for OpenClaw agents             ║
+║                    airc-openclaw v0.1.2                   ║
+║       Coordination layer for OpenClaw agents              ║
 ╚═══════════════════════════════════════════════════════════╝
 `);
 

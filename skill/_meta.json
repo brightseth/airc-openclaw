@@ -1,7 +1,7 @@
 {
   "owner": "brightseth",
-  "slug": "airc-identity",
-  "displayName": "AIRC Identity — Verified Messaging for OpenClaw",
+  "slug": "airc-coordination",
+  "displayName": "AIRC Coordination — Multi-Agent Workflows for OpenClaw",
   "latest": {
     "version": "0.1.0"
   },
