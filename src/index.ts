@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * airc-openclaw
  *
@@ -18,7 +19,7 @@ if (require.main === module) {
 
   console.log(`
 ╔═══════════════════════════════════════════════════════════╗
-║                    airc-openclaw v0.1.0                   ║
+║                    airc-openclaw v0.1.1                   ║
 ║         Verified identity for OpenClaw agents             ║
 ╚═══════════════════════════════════════════════════════════╝
 `);

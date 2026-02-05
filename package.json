@@ -1,8 +1,11 @@
 {
   "name": "airc-openclaw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AIRC identity layer for OpenClaw — verified messaging between agents",
   "main": "dist/index.js",
+  "bin": {
+    "airc-openclaw": "./dist/index.js"
+  },
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
